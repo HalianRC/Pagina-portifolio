@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@500&display=swap');
+
+
+*{
+  box-sizing: border-box ;
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  background-color: #191919;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin: 10px;
+  font-weight:550;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin: 15px 40px;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin: 10px;
+}
+
+h5{
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 40px;
+  margin: 10px;
+}
+
+
+
+.buttonMenu{
+  background-color: rgba(248, 246, 246, 0.808);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 50px;
+  margin: 10px 5px;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.buttonMenuLogo{
+  background-color: #0e76a8 ;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 50px;
+  border: none;
+  margin: 15px 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.buttonMenuLogoGit{
+  background-color: black ;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 50px;
+  border: none;
+  margin: 10px 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.buttonContrate{
+  background-color: #f20855 ;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 50px;
+  font-weight: 500;
+  margin: 10px;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  color: white;
+}
+
+.textBtn{
+  border: 2px solid #f20855;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 50px;
+  width:300px;
+  height: 40px;
+}
+
+.inputText{
+  
+  background-color: white;
+  border-radius: 50px;
+  width: 170px;
+  height: 30px;
+  border: none;
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+span{
+  color: #f20855;
+
+}
+
+.containerSection1{
+  box-shadow: 1px -12px 64px 0px rgba(0,0,0,0.75);
+  color: white;
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 20px;
+}
+
+.containerSection2{
+  color: white;
+  box-shadow: 1px -12px 64px 0px rgba(0,0,0,0.75);
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 60vh;
+}
+
+
+.boxSobreMim{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  line-height: 40px;
+}
+
+
+.containerSection2 img{
+  width: 300px;
+}
+
+
+
+.buttonLetsTalk{
+  color: white;
+  background-color: #f20855 ;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-weight: 500;
+  margin: 30px;
+  font-size: 15px;
+  width: 110px;
+  height: 30px;
+
+}
+
+.containerSection3{
+  color: white;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40vh;
+  gap: 40px;
+}
+
+.containerBoxSection3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.boxSection3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f20855;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 50px;
+
+}
+
+.boxSection3 img{
+  width: 40px;
+}
+
+.containerSectionPortifolio{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  gap: 10px;
+}
+
+.containerBoxSectionPortifolio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boxPotifolio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+
+footer{
+  color: white;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+}
